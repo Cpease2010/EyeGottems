@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Book & Boots</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 id="title">Boots & Books</h1>
+            <div id='responses' class="col s12 m6">
+                <ul id="responseList">
+                </ul>
+            </div>
+            <div class="col s12 m6">
+                <div class="card blue-grey darken-1">
+                    <div id='hello' class="card-content white-text">
+                        <h1 id='topName' class="card-title">Card Title</h1>
+                        <ul>
+                            <li id="bookTitle">Book Title:</li>
+                            <li id="authorName">Author:</li>
+                            <li id="bookGenre">Genre:</li>
+                            <input placeholder="What book would you like to know about?" type="text" name="bookName" id="bookName">
+                        </ul>
+                    </div>
+                    <div id='hello' class="card-action">
+                        <button id='searchButton' type="button">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+    background: url('boot4books.jpg')
+}
+
+#responses{
+    background: url('https://static.tumblr.com/8x9m588/C8ho55ylx/bg-wood2.png');
+    background-size: cover;
+    color: white;
+    margin: 0 auto
+}
+
+#title{
+    text-align: center;
+    color: gold
+    /* background: gold */
+}
+#hello{
+    background: gold;
+    color: black
+}
+
+#bookName{
+    color: black
+}
